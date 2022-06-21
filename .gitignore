@@ -1,6 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
-
 # Compiled class file
 *.class
 
@@ -14,6 +13,7 @@
 .mtj.tmp/
 
 # Package Files #
+
 *.war
 *.nar
 *.ear
@@ -31,3 +31,5 @@ gradle/
 gradlew
 gradlew.bat
 settings.gradle
+
+
