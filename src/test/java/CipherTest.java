@@ -1,5 +1,4 @@
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class CipherTest {
@@ -15,6 +14,4 @@ public class CipherTest {
         Cipher cipher =new Cipher();
         assertEquals("mad",cipher.decrypt("nbe",1));
     }
-
-
 }
