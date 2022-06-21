@@ -1,7 +1,6 @@
 public class Cipher {
     private static String plainText;
     private int shiftKey;
-
     public static String encrypt(String getplainText, int shiftKey) {
 
         plainText = getplainText;
@@ -12,8 +11,6 @@ public class Cipher {
         } else if (shiftKey < 0) {
             shiftKey = (shiftKey % 26) + 26;
         }
-
-
         for (int i = 0; i < plainText.length(); i++) {
             if (Character.isLetter(plainText.charAt(i))) {
                 if (Character.isLowerCase(plainText.charAt(i))) {
@@ -40,9 +37,7 @@ public class Cipher {
 
         }
         return cipherText;
-
     }
-
     public static String decrypt(String getplainText, int shiftKey) {
         plainText = getplainText;
         String cipherText = "";
@@ -52,8 +47,6 @@ public class Cipher {
         } else if (shiftKey < 0) {
             shiftKey = (shiftKey % 26) + 26;
         }
-
-
         for (int i = 0; i < plainText.length(); i++) {
             if (Character.isLetter(plainText.charAt(i))) {
                 if (Character.isLowerCase(plainText.charAt(i))) {
@@ -73,17 +66,13 @@ public class Cipher {
                         cipherText += ciphered_letter;
                     }
                 }
-
             } else {
                 cipherText += plainText.charAt(i);
             }
-
         }
         return cipherText;
 
-
     }
-
 }
 
 
