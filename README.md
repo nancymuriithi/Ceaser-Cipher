@@ -35,10 +35,11 @@ Then the application will output the encrypted word.
 If the user chooses the "Exit" option, the application will exit.
 
 # Known Bugs
-There no bugs in the application.
+There no known bugs in the application.
 
 # Technologies Used
-Java
+1. java
+2. Gradle
 
 # Support and contact details
 If you run into errors, please feel free to contact me on github.
